@@ -1,5 +1,5 @@
 Summary:	Fast replacement for Ruby's default thread library
-Summary(pl.UTF-8):   Szybki zamiennik dla domyślnej biblioteki wątków języka Ruby
+Summary(pl.UTF-8):	Szybki zamiennik dla domyślnej biblioteki wątków języka Ruby
 Name:		ruby-fastthread
 Version:	0.6.3
 Release:	1
