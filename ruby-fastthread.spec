@@ -1,17 +1,17 @@
 Summary:	Fast replacement for Ruby's default thread library
 Summary(pl.UTF-8):	Szybki zamiennik dla domyślnej biblioteki wątków języka Ruby
 Name:		ruby-fastthread
-Version:	0.6.3
+Version:	1.0
 Release:	1
 License:	Ruby
 Group:		Development/Libraries
 Source0:	http://moonbase.rydia.net/software/optimized-locking/fastthread-%{version}.gem
-# Source0-md5:	0bb486071df7ab366e6693410ba6a1fc
+# Source0-md5:	ced512fe09be9cc9184976d50882efb1
 URL:		http://moonbase.rydia.net/software/optimized-locking/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
 BuildRequires:	ruby-modules
-BuildRequires:	setup.rb = 3.3.1
+BuildRequires:	setup.rb >= 3.3.1
 %{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
